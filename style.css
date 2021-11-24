@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+}
+
+/* Resetting browser for responsive layout */ 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0 auto;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background: black;
+    opacity: 0.9;
+    text-align: center;
+    /* Green border to assist with layout */
+    //border: 1px solid green;
+    max-width: 100%;
+    top: 0px;
+}
+
+header {
+    display: inline-block;
+    width: 100%; 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    opacity: 1;
+    z-index: 2;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+    margin: 10px;
+}
+
+/* Idea below is to turn the nav bar ul into flex container and the li content be the flex items but it's not responding as I would like */
+nav {
+    text-align: right;
+}
+ 
+ul {
+    text-align: right;
+}
+
+ li {
+    text-decoration: underline;
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.parent {
+    padding-top: 69px; // because of this, you will need to set the position on your header as fixed.
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+#mission-section {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    flex-shrink: 2;
+    background-image: url(images/img-mission-background.jpg);
+    margin: auto;
+    margin-top: 69px;
+}
+ 
+#mission-text {
+    align-items: center;
+    justify-content: space-around;
+    width: 1200px;
+    height: 120px;
+    margin: auto;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 0.9em;
+}
+
+h4 {
+    font-size: 1em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+#gallery {
+    margin: auto;
+    padding-top: 20px;
+    width: 1000px;
+}
+
+#gallery-text h4 {
+    margin: 0;
+}
+
+#tea-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    min-height: 550px;
+}
+
+#tea-gallery figure {
+    margin-top: 0;
+    margin: auto;
+    max-height: 200px;
+    max-width: 300px;
+    justify-content: space-around;
+}
+
+figcaption {
+    margin-top: 10px;
+    font-size: 0.9em;
+    font-weight: 700;
+}
+
+#locations-container {
+    min-height: 500px;
+    min-width: 1200px;
+    margin: auto;
+    background-image: url(images/img-locations-background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -45px;
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#locations h2 {
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    margin-bottom: 15px;
+}
+
+.address {
+    min-width: 300px;
+    min-height: 250px;
+    height: auto;
+    margin: 20px;
+    line-height: 2em;
+    opacity: 1;
+}
+
+.address p {
+    font-size: 0.9em;
+}
+
+#contact {
+    min-height: 200px;
+}
+
+footer h5 {
+    text-align: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
