@@ -42,7 +42,6 @@ header {
     margin: 10px;
 }
 
-/* Idea below is to turn the nav bar ul into flex container and the li content be the flex items but it's not responding as I would like */
 nav {
     text-align: right;
 }
@@ -59,7 +58,7 @@ ul {
 
 .parent {
     padding-top: 69px;
-    opacity: 0.9;
+    opacity: 0.95;
     width: 1200px;
     margin: auto;
 }
