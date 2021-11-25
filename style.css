@@ -20,8 +20,6 @@ body {
     background: black;
     opacity: 0.9;
     text-align: center;
-    /* Green border to assist with layout */
-    //border: 1px solid green;
     max-width: 100%;
     top: 0px;
 }
@@ -60,7 +58,7 @@ ul {
 }
 
 .parent {
-    padding-top: 69px; // because of this, you will need to set the position on your header as fixed.
+    padding-top: 69px;
     opacity: 0.9;
     width: 1200px;
     margin: auto;
